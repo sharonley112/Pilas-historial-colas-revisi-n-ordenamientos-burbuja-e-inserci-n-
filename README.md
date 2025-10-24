@@ -11,7 +11,7 @@ def ordenar_por_nota():
     print("Cursos ordenados por nota (menor a mayor): ")   
     mostrar_cursos()        
     
-#9. Ordenar cursos por nombre (ordenamiento burbuja)
+# Ordenar cursos por nombre (ordenamiento burbuja)
 def ordenar_por_nombre():
     n = len(curos)
     for i in range(n - 1 ):
@@ -22,7 +22,7 @@ def ordenar_por_nombre():
         print("Cursos ordenados alfabéticamente")
         mostrar_cursos()
         
-#10.  Buscar curso por nombre (búsqueda binaria)   
+# Buscar curso por nombre (búsqueda binaria)   
 def buscar_curso_binario():
     ordenar_por_nombre() # la busqueda binaria necesita una lista ordenada
     nombre = input("Ingrese el nombre del curso a buscar: ").strip().lower()
